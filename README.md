@@ -2,8 +2,6 @@
 TypeScript command-line application that prompts for information on user options for cars, motorbikes, and trucks.
 
 ## 📚 Description
-This application is designed to quickly and easily create a README file from a series of prompts in the command-line. Creating a thorough README is nessecary for communicating the benefits of the application. It is also a time consuming process to format the information in a professional manner. This application acts a template that will create the README in the professional manner desired in less time and energy.
-
 This application is designed to allow the user to access information about cars and add options for truck and motorbikes. Through a series of prompts the user can create new vehicles or select existing vehicles. Based on the selection of of new or exsisting cars, the user can perform additional actions with the vehicle. 
 
 A video tutorial canbe found [here](https://drive.google.com/file/d/1VYYYCFIlldMwhfwWw4gv_wHdUftWJcuP/view?usp=sharing)
@@ -16,8 +14,8 @@ A video tutorial canbe found [here](https://drive.google.com/file/d/1VYYYCFIlldM
   * [License](#📃-license)
   * [Contact](#🗨️-contact)
 
-## 📝 Usage
-<strong>Using and Creating New Vehicles</strong>
+## 📝 Usage - Fix Pictures
+<strong>Using Vehicles and Creating New Vehicles</strong>
 
 This program is designed to be used as a command-line application to expand a current car application to include selections for trucks and motorbikes. It will then prompt the user for action prompts based on the selection of new or existing vehicles. 
 
@@ -57,7 +55,7 @@ You need gto copy the repository to your local machine.
 
 <strong>3. Install Dependencies</strong>
 
-This application requires to dependencies: fs and inquirer. These must be installed before the appication will perform. 
+This application requires the dependency: inquirer. This must be installed before the appication will perform. 
 
     npm install
 

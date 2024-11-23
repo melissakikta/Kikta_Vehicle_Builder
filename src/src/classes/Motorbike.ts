@@ -3,7 +3,7 @@ import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
 
 // The Motorbike class extends the Vehicle class
-class Motorbike  extends Vehicle {
+class Motorbike extends Vehicle {
   // Declare properties of the Motorbike class
   vin: string;
   color: string;
@@ -47,10 +47,12 @@ class Motorbike  extends Vehicle {
       this.wheels = wheels;
     }
   }
-  
-  // TODO: Implement the wheelie method
-    // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
 
+  // wheelie method
+wheelie(): void {
+  //log the message "Motorbike [make] [model] is doing a wheelie!"
+  console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`)
+}
 
 // Override the printDetails method from the Vehicle class
 override printDetails(): void {
