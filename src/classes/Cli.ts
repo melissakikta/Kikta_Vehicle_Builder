@@ -294,10 +294,11 @@ class Cli {
           //calls the performAction function to select another action
           this.performActions();
         } else {
-          tow(): void 
+          truck.tow(selectedVehicle); 
+          console.log(`this is a test. ${selectedVehicle}`);
           //console log to state the vehicle is being towed
           console.log ("The vehicle is being towed");
-          //calls the perfomrAction function to select another action
+          //calls the perfom Action function to select another action
           this.performActions();
         }
       });
@@ -396,12 +397,12 @@ class Cli {
                 //perform tow 
                 this.findVehicleToTow(selectedVehicle);
                 //return avoids calling the performActions immediately
-                return;
+                // return;
               } else {
                 //Log that the vehicle cannot tow 
                 console.log('This vehicle cannot tow.');
               }
-            }
+            } return;
           }
         } else if (answers.action === 'Wheelie') {
           // find the selected vehicle and do a wheeling with it
@@ -413,11 +414,12 @@ class Cli {
                 //do wheelie
                 selectedVehicle.wheelie();
                 //return avoids calling the performActions immediately
-                return;
               } else {
                 //Log it can't do a wheelie
                 console.log('This vehicle cannot do a wheelie.')
               }
+              //return avoids calling the performAction immediately              
+              return;
             }
           }
         } else if (answers.action === 'Select or create another vehicle') {
