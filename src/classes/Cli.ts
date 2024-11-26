@@ -296,7 +296,7 @@ class Cli {
         } else {
           truck.tow(selectedVehicle); 
           //console log to state the vehicle is being towed
-          console.log ("The vehicle is being towed");
+          console.log ("The vehicle is not the same truck.");
           //calls the perfom Action function to select another action
           this.performActions();
         }
@@ -412,8 +412,6 @@ class Cli {
               if (selectedVehicle instanceof Motorbike) {
                 //do wheelie
                 selectedVehicle.wheelie();
-                //return avoids calling the performActions immediately
-                 return;
               } else {
                 //Log it can't do a wheelie
                 console.log('This vehicle cannot do a wheelie.')

@@ -46,7 +46,7 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 <strong>1. Clone the Repository to your machine.</strong>
 You need gto copy the repository to your local machine.
 
-    git clone https://github.com/melissakikta/Kikta_Vehicle_Builder.git 
+    git clone https://github.com/melissakikta/Kikta_Vehicle_Builder 
 
 <strong>2. Navigate to the Project Directory</strong>
 
