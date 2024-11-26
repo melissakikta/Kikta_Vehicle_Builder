@@ -413,12 +413,11 @@ class Cli {
                 //do wheelie
                 selectedVehicle.wheelie();
                 //return avoids calling the performActions immediately
+                 return;
               } else {
                 //Log it can't do a wheelie
                 console.log('This vehicle cannot do a wheelie.')
-              }
-              //return avoids calling the performAction immediately              
-              return;
+              } 
             }
           }
         } else if (answers.action === 'Select or create another vehicle') {
