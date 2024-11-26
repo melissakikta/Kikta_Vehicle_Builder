@@ -4,7 +4,7 @@ TypeScript command-line application that prompts for information on user options
 ## 📚 Description
 This application is designed to allow the user to access information about cars and add options for truck and motorbikes. Through a series of prompts the user can create new vehicles or select existing vehicles. Based on the selection of of new or exsisting cars, the user can perform additional actions with the vehicle. 
 
-A video tutorial canbe found [here](https://drive.google.com/file/d/1VYYYCFIlldMwhfwWw4gv_wHdUftWJcuP/view?usp=sharing)
+A video tutorial canbe found [here](https://drive.google.com/file/d/1RD-HuWyUbWBZ7rc2hKB-S1zRYbrDF4GG/view?usp=sharing)
 
 ## 🚀 Table of Contents
   * [Usage](#📝-Usage)
@@ -19,22 +19,22 @@ A video tutorial canbe found [here](https://drive.google.com/file/d/1VYYYCFIlldM
 
 This program is designed to be used as a command-line application to expand a current car application to include selections for trucks and motorbikes. It will then prompt the user for action prompts based on the selection of new or existing vehicles. 
 
-<u>Initial Code Prompt:</u>
+<u><strong>Initial Code Prompt:</strong></u>
 
 ![Prompt Questions](./src/images/prompt.jpg)
 
 
-<u>Prompt of Existing Vehicle</u>
+<u><strong>Prompt of Existing Vehicle</strong></u>
 
 ![Console with Prompts](./src/images/existingVehicle.jpg)
 
 
-<u>Prompt of New Vehicle</u>
+<u><strong>Prompt of New Vehicle</strong></u>
 
 ![Generated README File](./src/images/newTruck.jpg)
 
 
-<u>Prompt for Additional Actions</u>
+<u><strong>Prompt for Additional Actions</strong></u>
 
 ![Generated README File](./src/images/actions.jpg)
 
