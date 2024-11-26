@@ -4,7 +4,7 @@ TypeScript command-line application that prompts for information on user options
 ## 📚 Description
 This application is designed to allow the user to access information about cars and add options for truck and motorbikes. Through a series of prompts the user can create new vehicles or select existing vehicles. Based on the selection of of new or exsisting cars, the user can perform additional actions with the vehicle. 
 
-A video tutorial canbe found [here](https://drive.google.com/file/d/1RD-HuWyUbWBZ7rc2hKB-S1zRYbrDF4GG/view?usp=sharing)
+A video tutorial can be found [here](https://drive.google.com/file/d/1RD-HuWyUbWBZ7rc2hKB-S1zRYbrDF4GG/view?usp=sharing)
 
 ## 🚀 Table of Contents
   * [Usage](#📝-Usage)
