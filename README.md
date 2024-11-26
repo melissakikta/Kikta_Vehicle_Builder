@@ -21,22 +21,22 @@ This program is designed to be used as a command-line application to expand a cu
 
 <u>Initial Code Prompt:</u>
 
-![Prompt Questions](./images/questions.jpg)
+![Prompt Questions](./src/images/prompt.jpg)
 
 
-<u>Prompt of Exsisting Vehicle</u>
+<u>Prompt of Existing Vehicle</u>
 
-![Console with Prompts](./images/console_prompts.jpg)
+![Console with Prompts](./src/images/existingVehicle.jpg)
 
 
 <u>Prompt of New Vehicle</u>
 
-![Generated README File](./images/generated_README.jpg)
+![Generated README File](./src/images/newTruck.jpg)
 
 
 <u>Prompt for Additional Actions</u>
 
-![Generated README File](./images/generated_README.jpg)
+![Generated README File](./src/images/actions.jpg)
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)

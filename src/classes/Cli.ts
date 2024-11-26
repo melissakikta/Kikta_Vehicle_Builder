@@ -295,7 +295,6 @@ class Cli {
           this.performActions();
         } else {
           truck.tow(selectedVehicle); 
-          console.log(`this is a test. ${selectedVehicle}`);
           //console log to state the vehicle is being towed
           console.log ("The vehicle is being towed");
           //calls the perfom Action function to select another action
@@ -397,12 +396,12 @@ class Cli {
                 //perform tow 
                 this.findVehicleToTow(selectedVehicle);
                 //return avoids calling the performActions immediately
-                // return;
+                return;
               } else {
                 //Log that the vehicle cannot tow 
                 console.log('This vehicle cannot tow.');
               }
-            } return;
+            } 
           }
         } else if (answers.action === 'Wheelie') {
           // find the selected vehicle and do a wheeling with it
